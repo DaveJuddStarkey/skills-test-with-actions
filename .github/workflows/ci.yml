@@ -36,3 +36,6 @@ jobs:
         with:
           name: remark-lint-report
           path: public/
+
+      # New step to re-trigger branch protection checks
+      - run: 'echo "Here is some text." '
